@@ -1,0 +1,7 @@
+[workspace]
+members = ["sklookup-test", "sklookup-test-common", "xtask"]
+
+[patch.crates-io]
+aya = {git = "https://github.com/dave-tucker/aya", branch = "sklookup" }
+[patch."https://github.com/aya-rs/aya"]
+aya = {git = "https://github.com/dave-tucker/aya", branch = "sklookup" }
